@@ -4,7 +4,7 @@ def converse() :
 	a=input("input binary number : ")
 	x=int(a,2)
 
-	print("OCT> %o\nDEC> %d\nHEX> %X"%( x, x, x))
+	print("=>OCT> %o\n=>DEC> %d\n=>HEX> %X"%( x, x, x))
 	
 	return
 
