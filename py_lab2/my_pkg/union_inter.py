@@ -27,7 +27,9 @@ def union_inter() :
 	union.sort()
 	inter.sort()
 
+	print("=>union ")
 	print(union)
+	print("=>intersection ")
 	print(inter)
 
 	return
