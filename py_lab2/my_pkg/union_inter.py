@@ -7,6 +7,8 @@ def union_inter() :
 	list1=a.replace(" ", "").replace("[","").replace("]","").split(",")
 	list2=b.replace(" ", "").replace("[","").replace("]","").split(",")
 
+	list1=list(map(int, list1))
+	list2=list(map(int, list2))
 	union=[]
 	inter=[]
 
@@ -27,10 +29,8 @@ def union_inter() :
 	union.sort()
 	inter.sort()
 
-	print("=>union ")
-	print(union)
-	print("=>intersection ")
-	print(inter)
+	print("=>union ", union)
+	print("=>intersection ", inter)
 
 	return
 	
